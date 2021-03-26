@@ -85,7 +85,7 @@ Full dataset of configurable systems with test suites and failure reports can be
     <td>8</td>
     <td>34</td>
     <td>19.8</td>
-    <td>19.9</td>
+    <td>99.9</td>
     <td>383</td>
     <td>4.8</td>
   </tr>
