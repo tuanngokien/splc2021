@@ -12,7 +12,7 @@ We collected 6 Java SPL systems in [SPL2Go](http://spl2go.cs.ovgu.de/), which ar
 
 This dataset contains 1,773 buggy versions collected from 6 Java SPL systems. 
 The V1 description detail can be found [here](https://drive.google.com/file/d/1qknDzvqoZXUktkYogbJoJgbdjvfkfsfT/view?usp=sharing).
-We later found that some cases that were not valid and should be removed. Hence, the dataset V2 is recommended. 
+In addition, we later found that some cases that were not valid and should be removed. Hence, the dataset V2 is highly recommended to acquire in this challenge. 
 
 [DOWNLOAD V1](https://mega.nz/folder/4xQljShQ#XLswm0SwfNInBxzQA4SUrQ)
 
