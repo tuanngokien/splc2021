@@ -8,7 +8,25 @@ Software fault localization is one of the most expensive, tedious, and time-cons
 ## Dataset
 We collected 6 Java SPL systems in [SPL2Go](http://spl2go.cs.ovgu.de/), which are widely used in the existing studies about configurable code, to construct our dataset. In addition, the products of each system are composed by [FeatureHouse](https://www.se.cs.uni-saarland.de/apel/fh/), a popular automated software composer.
 
-Full dataset of configurable systems with test suites and failure reports can be retrieved from this [DOWNLOAD LINK](https://mega.nz/folder/4xQljShQ#XLswm0SwfNInBxzQA4SUrQ).
+Full dataset of configurable systems with test suites and failure reports can be retrieved from the download links.
+
+#### Version 1 - Updated at 2021-03-05
+
+This dataset contains 1,773 buggy versions collected from 6 Java SPL systems. 
+We later found that some cases that were not valid and should be removed.
+Hence, the dataset V2 is recommended.
+
+[DOWNLOAD V1](https://mega.nz/folder/4xQljShQ#XLswm0SwfNInBxzQA4SUrQ)
+
+
+#### Version 2 - Updated at 2021-05-04
+
+This dataset contains 1,570 buggy versions collected from 6 Java SPL systems, statistics are summarized in the table below.
+
+[DOWNLOAD V2](https://drive.google.com/drive/u/1/folders/1PLwZjSmm5oQHrj2dhwQLL_tiF3JWBrf_)
+
+
+
 
 <table>
 <thead>
@@ -36,7 +54,7 @@ Full dataset of configurable systems with test suites and failure reports can be
     <td>25</td>
     <td>255.0</td>
     <td>42.9</td>
-    <td>150</td>
+    <td>304</td>
     <td>2.7</td>
   </tr>
   <tr>
@@ -66,7 +84,7 @@ Full dataset of configurable systems with test suites and failure reports can be
     <td>8</td>
     <td>133.3</td>
     <td>99.5</td>
-    <td>620</td>
+    <td>263</td>
     <td>1.1</td>
   </tr>
   <tr>
@@ -98,7 +116,7 @@ Full dataset of configurable systems with test suites and failure reports can be
 To construct baseline results, we conducted experiments with the naive adaption of Spectrum-Based
 Fault Localization (SBFL), which considers the whole SPL system as a non-configurable code. The suspiciousness score of a statement is measured based on the tests counted from all the products. We use this adaption with different SBFL metrics to evaluate the baseline performance on localizing variability bugs in both single-bug and multiple-bug settings.
 
-Experimental results can be found [HERE](https://mega.nz/folder/4xQljShQ#XLswm0SwfNInBxzQA4SUrQ).
+Experimental results can be found in related dataset.
 
 ## Artifact Structure
 
