@@ -6,15 +6,13 @@
 Software fault localization is one of the most expensive, tedious, and time-consuming activities in program debugging. This activity becomes even much more challenging in Software Product Line (SPL) systems due to the variability of failures in SPL systems. These unexpected behaviors are caused by variability faults which can only be exposed under some combinations of system features. Although localizing bugs in non-configurable code has been investigated in-depth, variability fault localization in SPL systems still remains mostly unexplored. To approach this challenge, we propose a benchmark for variability fault localization with a large set of 1,773 buggy versions of six SPL systems and baseline variability fault localization performance results. Our hope is to engage the community and stimulate new and better approaches to the problem of variability fault localization in SPL systems.
 
 ## Dataset
-We collected 6 Java SPL systems in [SPL2Go](http://spl2go.cs.ovgu.de/), which are widely used in the existing studies about configurable code, to construct our dataset. In addition, the products of each system are composed by [FeatureHouse](https://www.se.cs.uni-saarland.de/apel/fh/), a popular automated software composer.
-
-Full dataset of configurable systems with test suites and failure reports can be retrieved from the download links.
+We collected 6 Java SPL systems in [SPL2Go](http://spl2go.cs.ovgu.de/), which are widely used in the existing studies about configurable code, to construct our dataset. In addition, the products of each system are composed by [FeatureHouse](https://www.se.cs.uni-saarland.de/apel/fh/), a popular automated software composer. Full dataset of configurable systems with test suites and failure reports can be retrieved from the download links.
 
 #### Version 1 - Updated at 2021-03-05
 
 This dataset contains 1,773 buggy versions collected from 6 Java SPL systems. 
-We later found that some cases that were not valid and should be removed.
-Hence, the dataset V2 is recommended.
+The V1 description detail can be found [here](https://drive.google.com/file/d/1qknDzvqoZXUktkYogbJoJgbdjvfkfsfT/view?usp=sharing).
+We later found that some cases that were not valid and should be removed. Hence, the dataset V2 is recommended. 
 
 [DOWNLOAD V1](https://mega.nz/folder/4xQljShQ#XLswm0SwfNInBxzQA4SUrQ)
 
