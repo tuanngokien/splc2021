@@ -11,13 +11,13 @@ We collected 6 Java SPL systems in [SPL2Go](http://spl2go.cs.ovgu.de/), which ar
 #### Version 1 - Updated at 2021-03-05
 
 This dataset contains 1,773 buggy versions collected from 6 Java SPL systems. 
-The V1 description detail can be found [here](https://drive.google.com/file/d/1qknDzvqoZXUktkYogbJoJgbdjvfkfsfT/view?usp=sharing).
+The V1 detailed description can be found [here](https://drive.google.com/file/d/1qknDzvqoZXUktkYogbJoJgbdjvfkfsfT/view?usp=sharing).
 In addition, we later found that some cases that were not valid and should be removed. Hence, the dataset V2 is highly recommended to acquire in this challenge. 
 
 [DOWNLOAD V1](https://mega.nz/folder/4xQljShQ#XLswm0SwfNInBxzQA4SUrQ)
 
 
-#### Version 2 - Updated at 2021-05-04
+#### Version 2 - Updated at 2021-05-04 [NEW]
 
 This dataset contains 1,570 buggy versions collected from 6 Java SPL systems, statistics are summarized in the table below.
 
