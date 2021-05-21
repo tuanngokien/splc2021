@@ -148,7 +148,7 @@ Experimental results can be found in related dataset.
 - Each variant folder is labeled based on its corresponding configuration file.
 - A variant name in different versions of the same system is composed by the same configuration files, which is located in [configs/] folder of Original System
 - Program spectra files are aggregated directly from test execution data ([passed/] and [failed/]) in the same product. They are used as input to SBFL technique to locating buggy statements.
-- To run the unit tests for a product, participant need to compile source code with Java 8 and include all custom dependencies in [lib/], Junit, and Evosuite jar files. 
+- To run the unit tests for a product, participant need to compile source code with Java 8 and include all custom dependencies in [lib/], Junit v4.12, and Evosuite v1.0.6 jar files. 
 
 ---
 
