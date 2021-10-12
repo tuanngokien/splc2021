@@ -3,7 +3,7 @@
 # [SPLC2021 Challenge Case]
 # Variability Fault Localization: A Benchmark
 
-Software fault localization is one of the most expensive, tedious, and time-consuming activities in program debugging. This activity becomes even much more challenging in Software Product Line (SPL) systems due to the variability of failures in SPL systems. These unexpected behaviors are caused by variability faults which can only be exposed under some combinations of system features. Although localizing bugs in non-configurable code has been investigated in-depth, variability fault localization in SPL systems still remains mostly unexplored. To approach this challenge, we propose a benchmark for variability fault localization with a large set of 1,570 buggy versions of six SPL systems and baseline variability fault localization performance results. Our hope is to engage the community and stimulate new and better approaches to the problem of variability fault localization in SPL systems.
+Software fault localization is one of the most expensive, tedious, and time-consuming activities in program debugging. This activity becomes even much more challenging in Software Product Line (SPL) systems due to the variability of failures in SPL systems. These unexpected behaviors are caused by variability faults which can only be exposed under some combinations of system features. Although localizing bugs in non-configurable code has been investigated in-depth, variability fault localization in SPL systems still remains mostly unexplored. To approach this challenge, we propose a benchmark for variability fault localization with a large set of 1,570 buggy versions of six SPL systems and baseline variability fault localization performance results. Our hope is to engage the community and stimulate new and better approaches to the problem of variability fault localization in SPL systems. [[Preprint](https://arxiv.org/abs/2107.04741)]
 
 ## Dataset
 We collected 6 Java SPL systems in [SPL2Go](http://spl2go.cs.ovgu.de/), which are widely used in the existing studies about configurable code, to construct our dataset. In addition, the products of each system are composed by [FeatureHouse](https://www.se.cs.uni-saarland.de/apel/fh/), a popular automated software composer. Full dataset of configurable systems with test suites and failure reports can be retrieved from the download links.
@@ -216,3 +216,13 @@ For remapping purposes, the link  between each code statement in a product and t
 - EvoSuite - Automatic Test Suite Generation for Java - automatically generates test cases with assertions for classes written in Java code [[Link]](https://www.evosuite.org/)
 - OpenClover -  Code coverage measurement tool for Java [[Link]](http://openclover.org/)
 
+## Cite us
+```
+@inproceedings{ngo2021variability,
+  title={Variability fault localization: a benchmark},
+  author={Ngo, Kien-Tuan and Nguyen, Thu-Trang and Nguyen, Son and Vo, Hieu Dinh},
+  booktitle={Proceedings of the 25th ACM International Systems and Software Product Line Conference-Volume A},
+  pages={120--125},
+  year={2021}
+}
+```
